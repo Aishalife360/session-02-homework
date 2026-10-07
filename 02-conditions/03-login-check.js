@@ -18,3 +18,14 @@ const username = "salim";
 const password = "muscat";
 
 // your code here
+const usernameCheck = username === correctUsername
+const passwordCheck = password === correctPassword
+
+if (!usernameCheck) {
+    console.log(`User not found`);
+} else if (!passwordCheck) {
+    console.log(`Wrong password`);
+} else {
+    console.log(`Welcome, ${correctUsername}!`);
+}
+
