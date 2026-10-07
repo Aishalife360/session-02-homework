@@ -55,3 +55,4 @@ node 01-variables/01-trip-cost.js
 ## How to submit
 
 Paste the link to **your** GitHub repository into the assignment in Moodle before the deadline.
+
